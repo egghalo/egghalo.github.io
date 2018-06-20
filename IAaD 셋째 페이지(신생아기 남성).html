@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta charser:"utf-8">
+<head>
+        <style>
+                h1,h2,div {text-align: center;}
+                h1 {background-color: lightblue;}
+                div {max width: 1500px;
+                      margin:0 auto;}
+                div.div1 {width:250px;
+                          border: 4px solid lightblue;
+                          border-radius:5px;
+                          margin:5px;
+                          text-align: center;
+                          display: inline-block;
+                          box-shadow: 0 0 16px lightcoral;
+                          } 
+                div.div1:hover {transform: rotate(10deg);}
+                
+            </style>
+</head>
+
+<body>
+    <h1>IAaD</h1>    
+     <h2>찾으시는 질병을 선택 해 주세요</h2>
+        <div style="border: 4px solid lightblue; border-radius:5px; ">
+          <div class="div1" ><a><img src="바이러스 감염증.jpg"onclick="displayResult1()" style="width: 250px; height:160px; border-bottom: 4px solid lightblue;"><figcaption>RSV 감염증</figcaption></a></div>
+          <div class="div1" ><a><img src="고관절 탈구.jpg" onclick="displayResult2()"style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>고관절 탈구</figcaption></a></div>
+          <div class="div1" ><a><img src="로타바이러스 감염증.jpg" onclick="displayResult3()"style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>로타바이러스 감염증</figcaption></a></div>
+          <div class="div1" ><a><img src="신생아황달.jpg" onclick="displayResult4()"style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>신생아황달</figcaption></a></div>
+          <div class="div1" ><a><img src="아구창.jpg"onclick="displayResult5()" style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>아구창</figcaption></a></div>
+          <div class="div2" style="border: 4px solid lightblue; border-radius:5px; margin: 20px; height:350px; width:1450px; bottom:20px">
+                        <h5 id="myHeader1"></h5>
+                        <h5 id="myHeader2"></h5>
+                        <h5 id="myHeader3"></h5>
+                        <h5 id="myHeader4"></h5>
+                        <h5 id="myHeader5"></h5>     
+          </div>
+        </div>
+</body>
+<script>
+                function displayResult1() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>주로 영유아나 아동에서 발생하는 질환이나 노인 병동 등에서 집단발병이 일어나기도 한다. 또한, 성인에서는 여행자 설사증이나 에이즈 설사증의 원인이기도 하다. 선진국이나 개발도상국을 불문하고,</p><p>설사증으로 입원하는 5세 이하 소아의 1/3정도는 로타 바이러스 감염과 관련이 있다. 태어난 지 1개월이 안 된 영아 감염의 약 1/3에서는 설사를 보이나 2/3에서는 특별한 증상을 보이지</p><p>않는다. 6개월~2세의 유아들에게서의 발생률이 가장 높고, 2~3세까지는 모두 감염된다. 우리나라의 전북지역에서 시행된 전향적 감시조사연구에 따르면, 5세 미만의 설사환자의 21%에서 로타 </p><p>바이러스 양성으로 확인되었고 5세 미만의 소아 1,000명당 56.9명의 발생률을 보였다고 한다.</p>";
+                }
+                function displayResult2() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>고관절(엉덩이 관절)은 골반골의 비구(소켓처럼 움푹 파인 부위)와 대퇴 골두(넙적다리뼈의 위쪽 머리 부위)가 맞닿아서 이루어지며, 우리 몸에서 가장 안정된 관절로 대부분 강한 외상을 받는 경우에만</p><p>탈구될 수 있다. 고관절 탈구는 관절을 이루는 연부 조직이나 골 조직이 파열되거나 골절되어 비구에서 대퇴 골두가 어긋나 빠져나오는 것을 말한다. 탈구될 때 비구에 대하여 대퇴 골두가</p><p> 어디에 위치하는지에 따라 후방(뒤쪽), 전방(앞쪽), 중심성 탈구로 나눌 수 있다. 즉, 고관절 후방 탈구는 대퇴 골두가 관절에서 뒤쪽으로 빠져나오는 경우를 가리킨다.고관절은 우리 몸에서</p><p>가장 안정된 관절로 탈구를 일으키려면 강한 힘을 받아야 하고, 이 때문에 골절을 동반하는 경우가 흔하다. 외상성 고관절 탈구의 원인은 교통사고, 높은 곳에서의 낙상, 작업 중 사고,</p><p> 스포츠 손상 등으로 발생할 수 있으며, 다른 신체 부위의 손상을 동반하는 경우가 흔하다. 따라서 다발성 손상을 당한 경우나 큰 외상을 받은 환자는 고관절 탈구에 대한 검사를 실시해야 한다. </p>";
+                }
+                function displayResult3() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>주로 영유아나 아동에서 발생하는 질환이나 노인 병동 등에서 집단발병이 일어나기도 한다. 또한, 성인에서는 여행자 설사증이나 에이즈 설사증의 원인이기도 하다. 선진국이나 개발도상국을 불문하고,</p><p>설사증으로 입원하는 5세 이하 소아의 1/3정도는 로타 바이러스 감염과 관련이 있다. 태어난 지 1개월이 안 된 영아 감염의 약 1/3에서는 설사를 보이나 2/3에서는 특별한 증상을 보이지</p><p>않는다. 6개월~2세의 유아들에게서의 발생률이 가장 높고, 2~3세까지는 모두 감염된다. 우리나라의 전북지역에서 시행된 전향적 감시조사연구에 따르면, 5세 미만의 설사환자의 21%에서 로타 </p><p>바이러스 양성으로 확인되었고 5세 미만의 소아 1,000명당 56.9명의 발생률을 보였다고 한다.</p>";
+                }
+                function displayResult4() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>신생아 황달은 신생아기에 혈중 빌리루빈의 증가로 황달을 나타내는 질환을 총칭하며, 생후 첫 주 내 만삭아의 약 60%, 미숙아의 약 80%에서 관찰된다. 대부분 큰 문제 없이 좋아지지만 심한 황달을</p><p>치료하지 않는 경우 신경계에 손상을 줄 수 있다.황달은 혈중 빌리루빈의 증가에 의한 것으로, 빌리루빈은 수명을 다한 혈색소(적혈구의 헤모글로빈)로부터 생성되어 간에서 대사를 거쳐 </p><p>장으로 배설되게 된다. 신생아는 적혈구의 수명이 짧아 빌리루빈의 생성이 증가하고 간 대사가 미숙하므로 처리 능력이 떨어져서 생후 2~3일부터 황달을 보이다가 5~7일경 좋아지는 경우가 흔한데 </p><p>이를 ‘신생아 생리적 황달’이라고 한다. 여기에 적혈구 파괴가 늘어나는 용혈성 질환, 감염, 머리혈종 등 빌리루빈의 생성을 증가시키는 요인과 간 대사를 저해하는 요인이 더해지면 </p><p>혈중 빌리루빈이 생리적인 기준을 넘어 증가하게 되고 치료를 필요로 할 수도 있다. 이 외 다른 원인으로 인한 신생아 황달은 ‘기타 신생아 황달’로 분류한다.</p>";
+                }
+                function displayResult5() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>칸디다 종은 다양한 구강 질환을 일으키는데, 그 중 아구창과 의치성구내염이 가장 흔히 일어나는 질병이다. 입안 칸디다증(oral candidiasis)은 진균인 칸디다 알비칸스(Candida albicans)의</p><p>기회감염으로 발생한다. 칸디다 알비칸스는 건강한 사람의 입안(구강)과 장내에 있는 정상 균총(microflora) 중 하나이며 온도 등의 주위 환경에 따라 형태를 바꾸는 이형성 진균이다.</p><p> 면역력저하, 불결한 틀니 사용, 균교대 현상 등이 의해 인압의 칸디다 알비칸스가 과도하게 증식하면 기회감염을 일으켜 인체에 유해하게 작용한다. 이 질병은 임산부, 노인 그리고 면역력이 저하된 환자들</p><p> 사이에서 가장 빈번하게 일어난다. 신생아는 출생 시에 아구창에 걸릴 수 있으며 영양장애가 있는 생후 6개월 미만의 아이에게 흔하게 나타난다. 또한 국소적으로 침 분비 감소,</p><p> 스테로이드 연고 괃, 상용 노출, 특히 틀니를 사용하는 사람들에게서 나타나며 전신적으로는 항균제나 스테로이드의 장기 투여, 영양장애, 당뇨병, 면역력 저하로 인해 발생한다.</p>";
+                }
+</script>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charser:"utf-8">
+<head>
+        <style>
+                h1,h2,div {text-align: center;}
+                h1 {background-color: lightblue;}
+                div {max width: 1500px;
+                      margin:0 auto;}
+                div.div1 {width:250px;
+                          border: 4px solid lightblue;
+                          border-radius:5px;
+                          margin:5px;
+                          text-align: center;
+                          display: inline-block;
+                          box-shadow: 0 0 16px lightcoral;} 
+                div.div1:hover {transform: rotate(10deg);}
+                
+            </style>
+</head>
+
+<body>
+    <h1>IAaD</h1>    
+     <h2>찾으시는 질병을 선택 해 주세요</h2>
+        <div style="border: 4px solid lightblue; border-radius:5px; ">
+          <div class="div1" ><a><img src="결핵.jpg" onclick="displayResult1()"style="width: 250px; height:160px; border-bottom: 4px solid lightblue;"><figcaption>결핵</figcaption></a></div>
+          <div class="div1" ><a><img src="성홍열.jpg"onclick="displayResult2()" style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>성홍열</figcaption></a></div>
+          <div class="div1" ><a><img src="수두.jpg" onclick="displayResult3()"style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>수두</figcaption></a></div>
+          <div class="div1" ><a><img src="수족구병.jpg"onclick="displayResult4()"style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>수족구병</figcaption></a></div>
+          <div class="div1" ><a><img src="유행성이하선염.jpg" onclick="displayResult5()"style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>유행성이하선염</figcaption></a></div>
+          <div class="div2" style="border: 4px solid lightblue; border-radius:5px; margin: 20px; height:350px; max width:1450px; bottom:20px">
+                        <h5 id="myHeader1"></h5>
+                        <h5 id="myHeader2"></h5>
+                        <h5 id="myHeader3"></h5>
+                        <h5 id="myHeader4"></h5>
+                        <h5 id="myHeader5"></h5>
+          </div>
+        </div>
+</body>
+<script>
+                function displayResult1() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>정의</h2><p>결핵은 기원전 7천년 경 석기 시대의 화석에서 그 흔적이 발견된 이래 인류 역사상 가장 많은 생명을 앗아간 감염 질환이다.</p><h2>원인</h2><p>결핵은 그 정의상 결핵균에 의한 감염 때문에 발생한다.</P><h2>증상</h2><p>발열,야간 발한, 쇠약감,식욕부진, 체중 감소, 기침, 호흡곤란,흉통</p><h2>예방</h2><p>결핵을 예방하려면 비씨지 접좁을 해야 한다.</p>";
+                }
+                function displayResult2() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>대부분 A군 사슬알균에 의한 급성 인후염을 앓고 있는 사람과의 접촉을 통해서 전파된다. 기침 등의 호흡기 전파로 감염되어 세균성 인후염(목감기)의 증상을 보이며 발열 및 발진이 발생한다. </p><p>A군 사슬알균에 의한 급성 인후염이 있는 소아의 형제자매 및 부모의 경우 각각 50% 및 20%에서 균이 전파될 수 있으며 이 중 약 반수 이상에서 발열 및 인후통 등의 증상을 보이게 된다. 일부에서는 A군 사슬알균에</p><p> 의한 피부감염증(농가진, 상처 부위 감염증 등)에 의해서도 성홍열이 발생될 수 있으며 이 경우는 직접 접촉에 의해서도 전파될 수 있다.전 연령에서 발생할 수 있으나 학령기의 어린이 또는 청소년에서 흔하다.</p><p> 잠복기는 짧게는 1일, 길게는 7일까지로 평균 3일 정도이며, 갑작스러운 발열, 두통, 구토, 복통, 오한 및 인두염 등으로 시작되고, 24~48시간</p><p> 후에 전형적인 발진이 나타난다. 발열은 갑자기 시작하여 39~40℃까지 이를 수 있으며 치료하지 않으면 5~7일간 지속된다. 인후는 심하게 충혈되고 연구개와 목젖 위에 출혈 반점이 나타난다</p>";
+                }
+                function displayResult3() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>잠복기간은 2~3주이며 보통은 감염 후 13~17일 후에 증상이 나타나기 시작한다. 급성의 미열로 시작되고, 가려움(소양감)을 동반한 피부 발진은 몇 시간 동안의 반구진 시기, 3∼4일간의> 수포(물집)기를</p><p>거쳐 7∼10일 내에 가피(딱지)를 남기고 호전된다. 수포는 연속적인 과정을 거치면서 단계별로 변화하고, 동시에 여러 단계의 수포가 공존하는 특징이 있다. 수포가 터지면 궤양이 된다. 수포는 노출 부위보다는</p><p> 두피, 겨드랑이, 구강 점막이나 상기도 점막, 결막 등과 같이 가려진 부위에 더 많이 발생하는 경향이 있다. 벨트를 착용하는 부위 등 피부를 자극하는 곳에도 수포가 생기기 쉽다. 증상이 가볍거나 비전형적인</p><p> 감염형, 불현성(겉으로 그 증상이 나타나지 않는 상태) 감염도 있지만, 성인에게서는 발열과 전신 감염 증상이 심하게 나타난다.</p>";
+                }
+                function displayResult4() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>수족구병은 주로 콕사키 바이러스 A16 또는 엔테로 바이러스 71에 의해 발병하는 질환으로, 여름과 가을철에 흔히 발생하며 입 안의 물집과 궤양, 손과 발의 수포성 발진을 특징으로 하는 질환이다. 주로</p><p> 콕사키 바이러스 A16에 의해 발생하며 최근 엔테로 바이러스 71에 의한 수족구병의 집단 발생이 보고되고 있다. 그 외에도 콕사키 바이러스 A5, A7, A9에 의해 발병할 수 있다. 대개는 가벼운 질환으로 미열이 있거나</p><p> 열이 없는 경우도 있다. 입 안의 인두는 발적되고 혀와 볼 점막, 후부인두, 구개, 잇몸과 입술에 수포가 나타날 수 있다. 발진은 발보다 손에 더 흔하며 3~7mm 크기의 수포성으로 손바닥과 발바닥보다는 손등과</p><p> 발등에 더 많다. 엉덩이와 사타구니에도 발진이 나타날 수 있고, 엉덩이에 생긴 발진은 대개는 수포를 형성하지 않는다. 수포는 1주일 정도가</p><p> 지나면 호전된다. </p>";
+                }
+                function displayResult5() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>유행성이하선염, 급성 화농성 이하선염, 만성 이하선염 등이 있다. 유행성 이하선염은 바이러스성 질환으로 어린이에게 많다. 턱의 운동이나 가압 등으로 동통을 느낄 때가 있고, 두통 ·구역질 ·발열 등의 증세를 보인다.</p><p> 급성화농성 이하선염은 포도상구균의 감염으로 일어나고, 종창 ·동통 ·발열이 있으며, 저작(咀嚼)운동을 하면 통증이 심해진다. 항포도구균제를 전신적 ·국소적으로 사용하여 치료한다. </p><p>만성 이하선염은 주병변이 도관계(導管系)에 있는 것과, 선소엽간(腺小葉間) 및 선세포에 있는 것이 있다. 원인불명일 때가 많고, 만성의 종창과 압통이 있다. 치료는 구강의 청결 ·세정 및 광선요법을 한다. </p>";
+                }
+</script>

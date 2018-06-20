@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charser:"utf-8">
+<head>
+        <style>
+                h1,h2,div {text-align: center;}
+                h1 {background-color: lightcoral;}
+                div {max width: 1500px;
+                      margin:0 auto;}
+                div.div1 {width:250px;
+                          border: 4px solid lightcoral;
+                          border-radius:5px;
+                          margin:5px;
+                          text-align: center;
+                          display: inline-block;
+                          box-shadow: 0 0 16px deepskyblue;} 
+                div.div1:hover {transform: rotate(10deg);}
+                
+            </style>
+</head>
+
+<body>
+    <h1>IAaD</h1>    
+     <h2>찾으시는 질병을 선택 해 주세요</h2>
+        <div style="border: 4px solid lightcoral; border-radius:5px; ">
+          <div class="div1" ><a><img src="비염.jpg"onclick="displayResult1()" style="width: 250px; height:160px; border-bottom: 4px solid lightcoral;"><figcaption>비염</figcaption></a></div>
+          <div class="div1" ><a><img src="성홍열.jpg" onclick="displayResult2()"style="width: 250px; height:160px;border-bottom: 4px solid lightcoral;"><figcaption>성홍열</figcaption></a></div>
+          <div class="div1" ><a><img src="소아천식.jpg" onclick="displayResult3()"style="width: 250px; height:160px;border-bottom: 4px solid lightcoral;"><figcaption>소아천식</figcaption></a></div>
+          <div class="div1" ><a><img src="수두.jpg" onclick="displayResult4()"style="width: 250px; height:160px;border-bottom: 4px solid lightcoral;"><figcaption>수두</figcaption></a></div>
+          <div class="div1" ><a><img src="인플루엔자.jpg" onclick="displayResult5()"style="width: 250px; height:160px;border-bottom: 4px solid lightcoral;"><figcaption>인플루엔자</figcaption></a></div>
+          <div class="div2" style="border: 4px solid lightcoral; border-radius:5px; margin: 20px; height:350px;max width:1450px; bottom:20px">
+                        <h5 id="myHeader1"></h5>
+                        <h5 id="myHeader2"></h5>
+                        <h5 id="myHeader3"></h5>
+                        <h5 id="myHeader4"></h5>
+                        <h5 id="myHeader5"></h5>
+          </div>
+        </div>
+</body>
+<script>
+                function displayResult1() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>비염이란 비루(콧물), 재채기, 가려움증 및 코막힘 중 한 가지 이상의 증상을 동반하는 비점막의 염증성 질환을 의미한다. 그러나 진단 시에 비강 내의 염증반응 자체를 확인하는 것은 현실적으로 어렵기</p><p> 때문에 통상적으로 가려움증, 재채기, 비루 및 코막힘 등의 증상의 유무에 근거를 두고 진단이 이루어진다. 비염은 여러 가지 원인 및 병태 생리가 복합적으로 작용하여 발생하는 경우가 많다. 비염의 임상적인</p><p> 양상에 따라 급성 비염, 만성 비염, 위축성 비염으로 크게 나누기도 한다. 급성 비염은 흔히 감기라고 말하는 감염성 비염이며, 만성 비염은 원인에 따라서 감염성과 비감염성으로 크게 나누고 있다. 비감염성</p><p> 만성 비염의 원인으로는 알레르기 비염, 비강 구조의 해부학적 이상, 자율신경계의 불균형, 호르몬 이상, 약물, 정서 불안 등이 있다.</p>";
+                }
+                function displayResult2() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>대부분 A군 사슬알균에 의한 급성 인후염을 앓고 있는 사람과의 접촉을 통해서 전파된다. 기침 등의 호흡기 전파로 감염되어 세균성 인후염(목감기)의 증상을 보이며 발열 및 발진이 발생한다. </p><p>A군 사슬알균에 의한 급성 인후염이 있는 소아의 형제자매 및 부모의 경우 각각 50% 및 20%에서 균이 전파될 수 있으며 이 중 약 반수 이상에서 발열 및 인후통 등의 증상을 보이게 된다. 일부에서는 A군 사슬알균에</p><p> 의한 피부감염증(농가진, 상처 부위 감염증 등)에 의해서도 성홍열이 발생될 수 있으며 이 경우는 직접 접촉에 의해서도 전파될 수 있다.전 연령에서 발생할 수 있으나 학령기의 어린이 또는 청소년에서 흔하다.</p><p> 잠복기는 짧게는 1일, 길게는 7일까지로 평균 3일 정도이며, 갑작스러운 발열, 두통, 구토, 복통, 오한 및 인두염 등으로 시작되고, 24~48시간</p><p> 후에 전형적인 발진이 나타난다. 발열은 갑자기 시작하여 39~40℃까지 이를 수 있으며 치료하지 않으면 5~7일간 지속된다. 인후는 심하게 충혈되고 연구개와 목젖 위에 출혈 반점이 나타난다</p>";
+                }
+                function displayResult3() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>소아 연령에서 발생하는 천식이다. 폐 속의 기관지가 아주 예민해진 상태로, 기관지가 좁아져서 환아는 쌕쌕거리며 숨을 쉬거나 기침을 오래하고, 숨참과 가슴 답답함을 호소한다. 이런 증상은</p><p> 반복적, 발작적으로 나타나는 것이 특징이다.소아 천식은 대표적인 알레르기 질환으로, 성인과 마찬가지로 유전적 요인과 환경적인 요인이 합쳐져서 생긴다. 알레르기 소인을 가진 사람이 원인 물질과 접촉하여</p><p> ‘감작(생물체 내에 항원이 들어와서 그 항원에 민감한 상태가 됨)’이 되고, 주위의 천식 유발 인자들과 상호 작용을 일으키면 면역체계에 혼란이 생기면서 천식 증상이 나타나게 된다. 천식을 유발하는 인자로는 원인</p><p> 물질과 악화 요인이 있다. 원인 물질은 알레르겐(allergen)으로 불리며, 집 먼지 진드기, 꽃가루, 동물 털, 곰팡이, 식품 혹은 약물 등이 속한다.</p><p> 감수성이 있는 사람들에게만 특이적으로 작용한다.</p>";
+                }
+                function displayResult4() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>잠복기간은 2~3주이며 보통은 감염 후 13~17일 후에 증상이 나타나기 시작한다. 급성의 미열로 시작되고, 가려움(소양감)을 동반한 피부 발진은 몇 시간 동안의 반구진 시기, 3∼4일간의> 수포(물집)기를</p><p>거쳐 7∼10일 내에 가피(딱지)를 남기고 호전된다. 수포는 연속적인 과정을 거치면서 단계별로 변화하고, 동시에 여러 단계의 수포가 공존하는 특징이 있다. 수포가 터지면 궤양이 된다. 수포는 노출 부위보다는</p><p> 두피, 겨드랑이, 구강 점막이나 상기도 점막, 결막 등과 같이 가려진 부위에 더 많이 발생하는 경향이 있다. 벨트를 착용하는 부위 등 피부를 자극하는 곳에도 수포가 생기기 쉽다. 증상이 가볍거나 비전형적인</p><p> 감염형, 불현성(겉으로 그 증상이 나타나지 않는 상태) 감염도 있지만, 성인에게서는 발열과 전신 감염 증상이 심하게 나타난다.</p>";
+                }
+                function displayResult5() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>독감은 인플루엔자 바이러스에 의한 급성 호흡기 질환이다. 독감은 상부 호흡기계(코, 목)나 하부 호흡기계(폐)를 침범하며 갑작스런 고열, 두통, 근육통, 전신 쇠약감과 같은 전반적인 신체 증상을</p><p> 동반한다. 독감은 우리나라를 비롯하여 전 세계에서 발생하며, 계절 구분이 있는 지역에서는 매년 겨울에 소규모로 유행되고 있다. 독감은 전염성이 강하고, 노인이나 소아, 다른 질환을 앓고 있는 사람이 걸리면</p><p> 사망률이 증가하고 합병증의 발생이 증가하므로 중요하다.독감 바이러스 또는 인플루엔자 바이러스(influenza virus)가 원인 병원체이다. 두통, 발열, 오한, 근육통과 같은 전신 증상이 갑자기 발생하면서 목이</p><p> 아프고 기침이 나는 등의 호흡기 증상이 동반된다. 환자가 느끼는 이러한 증상은 매우 다양해서, 감기와 비슷하게 발열이 없는 호흡기 증상만</p><p> 나타나는 경우도 있고, 전형적으로 고열과 호흡기 증상을 동반하는 경우도 있다.</p>";
+                }
+</script>

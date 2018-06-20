@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charser:"utf-8">
+<head>
+        <style>
+                h1,h2,div {text-align: center;}
+                h1 {background-color: lightblue;}
+                div {max width: 1500px;
+                      margin:0 auto;}
+                div.div1 {width:250px;
+                          border: 4px solid lightblue;
+                          border-radius:5px;
+                          margin:5px;
+                          text-align: center;
+                          display: inline-block;
+                          box-shadow: 0 0 16px lightcoral;
+                          } 
+                div.div1:hover {transform: rotate(10deg);}
+                div.div2 {z-index:1;
+                          padding:8px;
+                          background-color:ghostwhite;
+                          opacity:1;
+                          }
+                div.div2.div3 : target {opacity:1;}
+            </style>
+</head>
+
+<body>
+    <h1>IAaD</h1>    
+     <h2>찾으시는 질병을 선택 해 주세요</h2>
+        <div style="border: 4px solid lightblue; border-radius:5px; ">
+          <div class="div1" ><a><img src="뇌혈관질환.jpg" onclick="displayResult1()" style="width: 250px; height:160px; border-bottom: 4px solid lightblue;"><figcaption>뇌혈관질환</figcaption></a></div>
+          <div class="div1" ><a><img src="무릎관절증.jpg" onclick="displayResult2()" style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>무릎관절증</figcaption></a></div>
+          <div class="div1" ><a><img src="백내장.jpg" onclick="displayResult3()" style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>백내장</figcaption></a></div>
+          <div class="div1" ><a><img src="알츠하이머병에서의 치매.jpg" onclick="displayResult4()" style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>알츠하이머병에서의 치매</figcaption></a></div>
+          <div class="div1" ><a><img src="척추병.jpg" onclick="displayResult5()" style="width: 250px; height:160px;border-bottom: 4px solid lightblue;"><figcaption>척추병</figcaption></a></div>
+          <div class="div2" style="border: 4px solid lightblue; border-radius:5px; margin: 20px; height:350px; max width:1430px; bottom:20px">
+             <h5 id="myHeader1"></h5>
+             <h5 id="myHeader2"></h5>
+             <h5 id="myHeader3"></h5>
+             <h5 id="myHeader4"></h5>
+             <h5 id="myHeader5"></h5>
+
+          </div>
+        </div>
+</body>
+<script>
+                function displayResult1() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>팔다리에 마비가 오거나 격심한 두통, 구토, 의식장애 등이 발생하면 뇌졸중일 가능성이 매우 높다. 이러한 증상이 나타나면 즉시 병원에 와서 뇌 CT나 MRI 검사를 해야 한다. 특히 뇌혈관이 막혀</p><p>발생하는 뇌경색은 발병 후 3~4시간 내에 혈전을 녹이는 약물을 투여하면 막힌 혈관이 뚫려 치유될 수도 있으나 이 시기를 놓치면 약물 투여가 효과가 없거나 오히려 위험할 수 있으므로 민간 요법 등으</p><p>로 시간을 지체하지 않는 것이 매우 중요하다. 뇌출혈인 경우 출혈양이 많거나 뇌간에 출혈을 한 경우는 치명적이지만 일부 뇌출혈은 혈종을 제거함으로서 생명을 구할 수 있다</p>";
+                }
+                function displayResult2() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>노인성 무릎관절염은 무릎관절의 연골이 닳아서 국소적으로 퇴행성 변화가 일어나는 질환으로 퇴행성관절염 혹은 골관절염, 골관절증이라고도 부른다. 퇴행성 무릎관절염의 경우 65세 이상의 노인들에게서 흔히</p><p>관찰되는 관절 질환으로 75세 이상 연령의 노인 대부분이 방사선 검사상 퇴행성관절염의 소견을 보이며 이러한 소견을 보이는 노인들 가운데 약 1/4 정도가 임상적인 증상을 보인다고 보고되고 있다.</p><p>최근 우리나라 인구의 평균수명이 길어지면서 노인 인구가 점차 증가하고 있는 사실에 비추어 볼 때 통증과 기능 장애를 초래하는 노인의 퇴행성관절염은 상당한 사회적 비용을 부담하게 하고 있는 것이 </p><p>의 강한 수축에 기인하며 계단 오르기, 일어서기 등이 힘들어진다. 또 활액막의 비후, 관절액의 증가, 근 경련 등으로 인해 근 위축, 운동 제한, 염발음(locking)과 같은 소견을 보인다. 또한<p></p> 이학적 감사에서는 부정정렬, 특히 무릎관절 안쪽의 변형을 관찰할 수 있다. </p>";
+                }
+                function displayResult3() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>백내장이란 눈 속의 수정체(렌즈)가 어떤 원인에 의해 뿌옇게 혼탁해져서 시력장애가 발생하는 질환입니다. 백내장은 유전적인 원인이나 임신초기의 풍진 감염 등에 의해 선천적으로 발생하는 경우도 있지만 <p></p>노화나 외상, 전신질환, 눈 속 염증, 독소 등에 의해 발생하는 후천백내장이 대부분을 차지합니다. 특히 나이가 들면서 노화의 일부로 발생하는 노인성 백내장은 60대의 절반 이상, 75세 이상 노인의 </p><p>대부분이 어느 정도씩은 있을 정도로 매우 흔한 질환입니다. 백내장은 양쪽 눈에 다 생길 수 있지만 한쪽이 더 심한 경우가 많습니다. 사람의 눈은 카메라와 매우 유사한데, 외부에서 들어온 빛은 카메라의 </p><p>렌즈에 해당하는 수정체를 통과하여 필름에 해당하는 망막에 영상을 맺게 됩니다. 망막에 도달한 빛은 시신경을 통해 전기신호로 바뀌어 시각중추로 전달되고 사람은 물체의 영상을 인식합니다.</p><p>사람의 눈이 외부의 영상을 또렷하게 보기 위해서는 투명하고 깨끗한 수정체(렌즈)가 망막에 물체의 상을 정확하게 초점을 맞추어 주어야 하는데, 백내장 환자의 경우 수정체가 뿌옇게 혼탁해져 있으므로 </p><p>마치 흐린 유리창을 통해 외부를 바라보는 것처럼 물체를 정확하게 볼 수 없게 됩니다.</p>";
+                }
+                function displayResult4() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>알츠하이머병은 치매를 일으키는 가장 흔한 퇴행성 뇌질환으로, 1907년 독일의 정신과 의사인 알로이스 알츠하이머 (Alois Alzheimer) 박사에 의해 최초로 보고되었다. 알츠하이머병은 매우 서서히 발병하여<p></p>점진적으로 진행되는 경과가 특징적이다. 초기에는 주로 최근 일에 대한 기억력에서 문제를 보이다가 진행하면서 언어기능이나 판단력 등 다른 여러 인지기능의 이상을 동반하게 되다가 결국에는 모든 </p><p>일상 생활 기능을 상실하게 된다. 알츠하이머병은 그 진행과정에서 인지기능 저하뿐만 아니라 성격변화, 초조행동, 우울증, 망상, 환각, 공격성 증가, 수면 장애 등의 정신행동 증상이 흔히 동반되며 말기에</p><p>이르면 경직, 보행 이상 등의 신경학적 장애 또는 대소변 실금, 감염, 욕창 등 신체적인 합병증까지 나타나게 된다.</p>";
+                }
+                function displayResult5() {
+                    document.getElementById("myHeader1").innerHTML = "<h2>질병 정보</h2><p>척주(vertebra column)는 크게 나누어 경추(목뼈), 흉추(등뼈), 요추(허리뼈), 천추의 네 부위로 나누어집니다. 척주의 만곡은 전후면에서 관찰하는 관상면은 천추부의 정중앙에 무게 중심이 위치하는 일직선이<p></p> 정상이며, 측면에서 관찰하는 시상면은 경추와 요추는 전만곡, 흉추와 천추는 후만곡을 보이는 것이 정상입니다. 하지만 과도한 전만이나 후만을 보이는 경우 전만증이나 후만증이라 하여 형태 <p></p>이상을 의미합니다. 전만증(lordosis)은 척추가 전방으로 과도하게 굽는 경우를 말하며, 후만증(kyphosis)은 척추가 후방으로 과도하게 굽는 경우를 말합니다. 전만증보다는 후만증을 더 치료의 대상으로 하고<p></p> 있습니다. 척추 측만증(scoliosis)은 척추가 관상면에서 측방(옆)으로 과도하게 굽는 경우를 말하며, 후만증은 척추의 시상면에서 정상 만곡(curve)이 소실되고 흉부의 후만곡이 더욱 증가하거나,<p></p> 경부와 요부에서 후만 변형이 보이는 경우를 말합니다. 이처럼 척추의 형태 이상은 크게 나누어 관상면(coronal section)에서의 이상인 척추 측만증과 시상면(sagittal section)에서의 이상인 <p></p>척추 후만증이 있습니다</p>";
+                }
+</script>
